@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Kokis maker V1", "Kokis maker V1\Kokis maker V1.cproj", "{F8323485-BA0F-4C07-9D07-E622C27713E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8323485-BA0F-4C07-9D07-E622C27713E1}.Debug|AVR.ActiveCfg = Debug|AVR
+		{F8323485-BA0F-4C07-9D07-E622C27713E1}.Debug|AVR.Build.0 = Debug|AVR
+		{F8323485-BA0F-4C07-9D07-E622C27713E1}.Release|AVR.ActiveCfg = Release|AVR
+		{F8323485-BA0F-4C07-9D07-E622C27713E1}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
