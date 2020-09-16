@@ -312,7 +312,7 @@ int temp_measure()
 	char printbuff[100],cdf[100];
 	double d = 0;
 	int a = 1;
-	PORTB = 0b01111111;
+	PORTB = 0b01111111;  // turn on hotplate
 	
 	lcd_clrscr();
 
@@ -337,7 +337,7 @@ int temp_measure()
 			lcd_clrscr();
 			lcd_puts("Temp ok");
 			_delay_ms(3000);
-			PORTB = 0b11111111;
+			PORTB = 0b11111111;  // turn off hotplate
 			a = 0;
 		}
 	}
